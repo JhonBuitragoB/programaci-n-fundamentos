@@ -1,0 +1,9 @@
+
+Fase 0
+
+Aprendi:
+
+* a concatenar las variables en los print usando los f-string
+* usar las { } dentro de los print
+* usar la función type para identifcar el tipo de cada variable
+* a escribir los print en varias lineas usando f y las comillas al inicio 
