@@ -1,15 +1,20 @@
-"""# PROGRAMA PARA CALCULAR EDAD
-
+# PROGRAMA PARA CALCULAR EDAD
+linea = "=" * 10
+print(f"{linea} INICIO {linea}\n")
+nombre = input("Cuál es tu nombre: ")
 edad = int(input("Ingrese su edad: "))
+print("\n")
 
 if edad <13:
-    print("Eres niño")
+    print(f"{nombre} Eres niño")
 elif edad <18:
-    print("Eres Adolescente")
+    print(f"{nombre} Eres Adolescente")
 elif edad >= 65:
-    print("Eres Adulto Mayor")
+    print(f"{nombre} Eres Adulto Mayor")
 else:
-    print("Eres Adulto")
+    print(f"{nombre} Eres Adulto\n")
+
+print(f"\n{linea} FIN {linea}\n")
 
 
 
@@ -24,7 +29,9 @@ elif nota >= 60 and nota <=89:
 else:
     print("Excelente")
 
-    """
+print("==========FIN==========\n")
+
+   
 # RESPUESTA A PREGUNTA
 
 respuesta = input("Tienes mas de 18 años?: (si/no): ")
@@ -39,3 +46,4 @@ else:
     el programa siempre revisa la condición y si no es exactamente como dice allí
     toma el otro camino. Al escribir Si, imprime: Eres menor de edad
     """
+print("==========FIN==========\n")
